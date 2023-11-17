@@ -1,0 +1,12 @@
+curl --request POST 127.0.0.1:8080/countries \
+--data-raw '{"Name": "Mexico", "Language":"Spanish"}'
+
+curl --request POST 127.0.0.1:8080/countries \
+--data-raw '{"Name": "USA", "Language":"English"}'      
+
+curl --request POST 127.0.0.1:8080/countries \ 127 ↵
+--data-raw '{"Name": "Argentina", "Language":"Spanish"}'
+
+curl --request GET 127.0.0.1:8080/countries
+
+curl --request GET 127.0.0.1:8080/
